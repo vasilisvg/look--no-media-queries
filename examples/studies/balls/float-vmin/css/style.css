@@ -1,0 +1,79 @@
+html {
+	font: 2.25vmin/1.5 helvetica, arial;
+	margin: 4em;
+}
+
+body {
+	max-width: 45em;
+	background: #a9bbbb;
+	margin: 0 auto;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+h1,
+h2 {
+	text-indent: -1000em;
+	font-size: 1em;
+	margin: 0;
+}
+.ball {
+	position: relative;
+}
+.ball h1 {
+	font-size: 4em;
+	background: #b8e4f9;
+	width: 2em;
+	height: 2em;
+	-webkit-border-radius: 100px;
+	border-radius: 100%;
+	margin: 0 .2em .2em 0;
+}
+.ball .ball {
+	position: absolute;
+	top: 0;
+}
+.ball .ball h1 {
+	width: 1em;
+	height: 1em;
+	margin: .5em;
+	position: absolute;
+}
+.ball .ball .ball h1 {
+	width: .7em;
+	height: .7em;
+	margin: .65em;
+}
+
+.blue > h1 {
+	background: #b8e4f9;
+}
+.green > h1,
+.green > h2 {
+	background: #bde1da;
+}
+.red > h1 {
+	background: #bf364a;
+}
+.yellow > h1 {
+	background: #fefcdd;
+}
+.white > h1 {
+	background: #fdfdfd;
+}
+
+
+/* @group articles {{{
+================================================================= */
+
+	article {
+		width: 8em;
+		float: left;
+		position: relative;
+		margin: 0 1em 0 0;
+	}
+
+
+

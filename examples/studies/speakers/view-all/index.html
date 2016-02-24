@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inline-block — All speakers</title>
+<style>
+body {
+	background: white;
+	margin: 0;
+	padding: 0;
+	font: 100%/1.732 "Fedra Sans Screen Regular",helvetica,arial,sans-serif;
+}
+nav {
+	position: fixed;
+	top: 0;
+	background: silver;
+	padding: .3em;
+	width: 100vw;
+	box-sizing: border-box;
+	z-index: 4;
+	display: none;
+}
+[for="shownav"] {
+	//display: inline-block;
+	font-size: 2em;
+	line-height: 1;
+	overflow: hidden;
+}
+body > [for="shownav"],
+#shownav {
+	position: absolute;
+	top: 0;
+	margin: .2em 0 0 .2em;
+}
+#shownav {
+	left: -5em;
+}
+input:checked + nav {
+	display: block;
+}
+button {
+	background: white;
+	border: none;
+	font: inherit;
+}
+.this {
+	color: red;
+}
+#hidden {
+	display: none;
+}
+#visible {
+	margin-top: 2.4em;
+	height: calc(100vh - 2.4em);
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-flex-wrap: wrap;
+  	    -ms-flex-wrap: wrap;
+  	        flex-wrap: wrap;
+  	-webkit-box-pack: justify;
+  	-webkit-justify-content: space-around;
+  	    -ms-flex-pack: justify;
+  	        justify-content: space-around;
+}
+
+article {
+	
+	position: relative;
+}
+article {
+	-webkit-flex-basis: 50vmax;
+	    -ms-flex-preferred-size: 50vmax;
+	        flex-basis: 50vmax;
+}
+article:nth-last-of-type(n+5),
+article:nth-last-of-type(n+5) ~ * {
+	-webkit-flex-basis: 33.3333vmax;
+	    -ms-flex-preferred-size: 33.3333vmax;
+	        flex-basis: 33.3333vmax;
+}
+article:nth-last-of-type(n+7),
+article:nth-last-of-type(n+7) ~ * {
+	-webkit-flex-basis: 25vmax;
+	    -ms-flex-preferred-size: 25vmax;
+	        flex-basis: 25vmax;
+}
+article:nth-last-of-type(n+13),
+article:nth-last-of-type(n+13) ~ * {
+	-webkit-flex-basis: 20vmax;
+	    -ms-flex-preferred-size: 20vmax;
+	        flex-basis: 20vmax;
+}
+article:nth-last-of-type(n+21),
+article:nth-last-of-type(n+21) ~ * {
+	-webkit-flex-basis: 16.666666667vmax;
+	    -ms-flex-preferred-size: 16.666666667vmax;
+	        flex-basis: 16.666666667vmax;
+}
+img {
+	box-sizing: border-box;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -40%;
+}
+</style>
+</head>
+<body>
+<section id="visible">
+<article class="everybody hosts male"><img src="../speakers/dan-rubin.jpg" alt="Dan Rubin – Photo: Chris Davis/specularworld.com"></article>
+<article class="everybody hosts male"><img src="../speakers/stephen-hay.jpg" alt="Stephen Hay"></article>
+<article class="everybody speakers male thursday too-late"><img src="../speakers/chaals-mccathie-nevile.jpg" alt="Charles McCathie Nevile"></article>
+<article class="everybody speakers male thursday too-late"><img src="../speakers/David-Condrau.jpg" alt="David Condrau"></article>
+<article class="everybody speakers male friday to-speak"><img src="../speakers/Edward-O-Riordan.jpg" alt="Edward O’Riordan"></article>
+<article class="everybody speakers male thursday too-late eri"><img src="../speakers/Eric-M-Suzanne.jpg" alt="Eric M. Suzanne"></article>
+<article class="everybody speakers male thursday too-late eri"><img src="../speakers/eric_m.jpg" alt="Eric Muntz"></article>
+<article class="everybody speakers male thursday to-speak eri"><img src="../speakers/Erik-Runyon.jpg" alt="Erik Runyon"></article>
+<article class="everybody speakers male friday to-speak"><img src="../speakers/Felix-Palmer.jpg" alt="Felix Palmer"></article>
+<article class="everybody speakers male thursday too-late"><img src="../speakers/flurin-adrian-egger.jpg" alt="Flurin &amp; Adrian Egger"></article>
+<article class="everybody speakers male thursday to-speak"><img src="../speakers/hugo-giraudel.jpg" alt="Hugo Giraudel"></article>
+<article class="everybody speakers male friday to-speak"><img src="../speakers/Jonathan-Snook.jpg" alt="Jonathan Snook"></article>
+<article class="everybody speakers male thursday to-speak"><img src="../speakers/kevin-m-hoffman.jpg" alt="Kevin M. Hoffman"></article>
+<article class="everybody speakers female thursday too-late"><img src="../speakers/laura-kalbag.jpg" alt="Laura Kalbag"></article>
+<article class="everybody speakers female friday to-speak"><img src="../speakers/leonie-watson.jpg" alt="Léonie Watson"></article>
+<article class="everybody speakers male friday to-speak"><img src="../speakers/Martin-Gontovnikas.jpg" alt="Martin Gontovnikas"></article>
+<article class="everybody speakers male thursday right-now"><img src="../speakers/Nick-Niles.jpg" alt="Nick Niles"></article>
+<article class="everybody speakers female friday to-speak"><img src="../speakers/patty-toland1.jpg" alt="Patty Toland"></article>
+<article class="everybody speakers male friday to-speak"><img src="../speakers/Paul-Verbeek.jpg" alt="Paul Verbeek"></article>
+<article class="everybody speakers male female friday to-speak"><img src="../speakers/Thomas-Jaggi-Olga-Skurativska.jpg" alt="Thomas Jaggi &amp; Olga Skurativska"></article>
+<article class="everybody speakers male thursday to-speak"><img src="../speakers/tim-holman.jpg" alt="Tim Holman"></article>
+<article class="everybody speakers male friday to-speak"><img src="../speakers/umar-hansa.jpg" alt="Umar Hansa"></article>
+<article class="everybody speakers male thursday right-now"><img src="../speakers/Vasilis-van-Gemert.jpg" alt="Vasilis van Gemert"></article>
+<article class="everybody speakers male friday to-speak"><img src="../speakers/vitaly-friedman.jpg" alt="Vitaly Friedman"></article>
+</section>
+<section id="hidden">
+
+</section>
+
+<label for="shownav">≡</label>
+<input id="shownav" type="checkbox">
+<nav>
+	<label for="shownav">≡</label>
+	<button data-who="everybody" class="this">everybody</button>
+	<button data-who="speakers">speakers</button>
+	<button data-who="hosts">hosts</button>
+	<button data-who="female">female</button>
+	<button data-who="eri">eri</button>
+	<button data-who="male">male</button>
+	<button data-who="thursday">thursday</button>
+	<button data-who="friday">friday</button>
+	<button data-who="too-late">too late</button>
+	<button data-who="right-now">right now</button>
+	<button data-who="to-speak">to see</button>
+</nav>
+
+<script>
+// put all images in some sort of a hidden cache;
+document.getElementById('hidden').innerHTML = document.getElementById('visible').innerHTML;
+
+// here be clicks
+var btn = document.querySelectorAll('button');
+var i = 0;
+while(i<btn.length) {
+	btn[i].onclick = function(){ // when you click
+		var who = this.getAttribute("data-who"); // what are we clicking?
+		document.getElementById('visible').innerHTML = ''; // remove everybody
+		document.querySelector('.this').classList.remove('this');
+		this.classList.add('this');
+		var arts = document.querySelectorAll('article'); // get all articles
+		var j = 0;
+		while(j<arts.length) {
+			if (arts[j].classList.contains(who)) { // if it has the className we're looking for…
+				document.getElementById('visible').innerHTML += '<article>' + arts[j].innerHTML + '</article>'; // … show it in the visible section
+			}
+			j++;
+		}
+	}
+	i++;
+}
+</script>
+
+<style>
+article {
+	mix-blend-mode: multiply;
+}
+	article { z-index: 4;background: hsl(54,79%,65%); box-shadow: 0 0 0 .3em hsla(54,79%,65%,1); animation: nth1 30s linear infinite alternate;}
+	article:hover,
+	article:focus { background: hsla(54,79%,15%,.3); box-shadow: 0 0 0 .3em hsla(54,79%,15%,.3); }
+	article:first-child a { font-weight: 900; }
+
+	article:nth-of-type(2n) { z-index:4;font-weight: 800; background: hsla(120,73%,74%,1); box-shadow: 0 0 0 .7em hsla(120,73%,74%,1);animation: nth2 30s linear infinite alternate; }
+	article:nth-of-type(2n):hover,
+	article:nth-of-type(2n):focus { background: hsla(120,73%,24%,.3); box-shadow: 0 0 0 .7em hsla(120,73%,24%,.3); }
+
+	article:nth-of-type(3n) { z-index:3;font-weight: 700; background: hsla(92,51%,86%,1); box-shadow: 0 0 0 .5em hsla(92,51%,86%,1); animation: nth3 30s linear infinite alternate;}
+	article:nth-of-type(3n):hover,
+	article:nth-of-type(3n):focus { background: hsla(92,51%,36%,.3); box-shadow: 0 0 0 .5em hsla(92,51%,36%,.3); }
+
+	article:nth-of-type(5n) { z-index:1;font-weight: 600; background: hsla(142,60%,84%,1); box-shadow: 0 0 0 .6em hsla(142,60%,84%,1); animation: nth4 30s linear infinite alternate;}
+	article:nth-of-type(5n):hover,
+	article:nth-of-type(5n):focus { background: hsla(142,60%,34%,.3); box-shadow: 0 0 0 .6em hsla(142,60%,34%,.3); }
+
+	article:nth-of-type(7n) { z-index:1;font-weight: 500; background: hsla(103,64%,75%,1); box-shadow: 0 0 0 .7em hsla(103,64%,75%,1); animation: nth5 30s linear infinite alternate;}
+	article:nth-of-type(7n):hover,
+	article:nth-of-type(7n):focus { background: hsla(103,64%,25%,.3); box-shadow: 0 0 0 .7em hsla(103,64%,25%,.3); }
+
+	article:nth-of-type(11n) { z-index:1;font-weight: 400; background: hsla(231,62%,71%,1); box-shadow: 0 0 0 .9em hsla(231,62%,71%,1); animation: nth6 30s linear infinite alternate;}
+	article:nth-of-type(11n):hover,
+	article:nth-of-type(11n):focus { background: hsla(231,62%,21%,.3); box-shadow: 0 0 0 .9em hsla(231,62%,21%,.3); }
+
+	article:nth-of-type(13n) { z-index:4;font-weight: 300; background: hsla(43,80%,74%,1); box-shadow: 0 0 0 .6em hsla(43,80%,74%,1); animation: nth7 30s linear infinite alternate;}
+	article:nth-of-type(13n):hover,
+	article:nth-of-type(13n):focus { background: hsla(43,80%,24%,.3); box-shadow: 0 0 0 .6em hsla(43,80%,24%,.3); }
+
+	article:nth-of-type(17n) { z-index:2;font-weight: 200; background: hsla(250,59%,88%,1); box-shadow: 0 0 0 .9em hsla(250,59%,88%,1); animation: nth8 30s linear infinite alternate;}
+	article:nth-of-type(17n):hover,
+	article:nth-of-type(17n):focus { background: hsla(250,59%,38%,.3); box-shadow: 0 0 0 .9em hsla(250,59%,38%,.3); }
+
+	article:nth-of-type(19n) { z-index:3;background: hsla(23,79%,82%,1); box-shadow: 0 0 0 .6em hsla(23,79%,82%,1); animation: nth9 30s linear infinite alternate;}
+	article:nth-of-type(19n):hover,
+	article:nth-of-type(19n):focus { background: hsla(23,79%,32%,.3); box-shadow: 0 0 0 .6em hsla(23,79%,32%,.3); }
+
+	article:nth-of-type(23n) { z-index:1;background: hsla(187,67%,72%,1); box-shadow: 0 0 0 .5em hsla(187,67%,72%,1); animation: nth10 30s linear infinite alternate;}
+	article:nth-of-type(23n):hover,
+	article:nth-of-type(23n):focus { background: hsla(187,67%,22%,.3); box-shadow: 0 0 0 .5em hsla(187,67%,22%,.3); }
+
+	article:nth-of-type(29n) { z-index:2;background: hsla(111,61%,74%,1); box-shadow: 0 0 0 .9em hsla(111,61%,74%,1); animation: nth11 30s linear infinite alternate;}
+	article:nth-of-type(29n):hover,
+	article:nth-of-type(29n):focus { background: hsla(111,61%,24%,.3); box-shadow: 0 0 0 .9em hsla(111,61%,24%,.3); }
+
+
+</style>
+</body>
+</html>

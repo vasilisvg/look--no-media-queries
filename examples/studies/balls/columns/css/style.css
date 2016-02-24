@@ -1,0 +1,77 @@
+html {
+	font: 70%/1.5 helvetica, arial;
+	margin: 7vmin;
+}
+
+body {
+	background: #a9bbbb;
+	margin: 0 auto;
+	position: relative;
+	-webkit-columns: 8em;
+	-moz-columns: 8em;
+	columns: 8em;
+	-webkit-column-gap: 0;-moz-column-gap: 0;column-gap: 0;
+}
+
+h1,
+h2 {
+	text-indent: -1000em;
+	font-size: 1em;
+	margin: 0;
+}
+.ball {
+	position: relative;
+	display: inline-block;
+}
+.ball h1 {
+	font-size: 4em;
+	background: #b8e4f9;
+	width: 2em;
+	height: 2em;
+	-webkit-border-radius: 100px;
+	border-radius: 100%;
+}
+.ball .ball {
+	position: absolute;
+	top: 0;
+}
+.ball .ball h1 {
+	width: 1em;
+	height: 1em;
+	margin: .5em;
+}
+.ball .ball .ball h1 {
+	width: .7em;
+	height: .7em;
+	margin: .65em;
+}
+
+.blue > h1 {
+	background: #b8e4f9;
+}
+.green > h1,
+.green > h2 {
+	background: #bde1da;
+}
+.red > h1 {
+	background: #bf364a;
+}
+.yellow > h1 {
+	background: #fefcdd;
+}
+.white > h1 {
+	background: #fdfdfd;
+}
+
+
+/* @group articles {{{
+================================================================= */
+
+	article {
+		width: 15vmin;
+		position: relative;
+		margin: 0 1.5vmin 1.5vmin 0;
+	}
+
+
+

@@ -1,0 +1,96 @@
+html {
+	font: 70%/1.5 helvetica, arial;
+	margin: 7vmin;
+}
+
+body {
+	background: #a9bbbb;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 66vmin;
+}
+
+h1,
+h2 {
+	text-indent: -1000em;
+	font-size: 1em;
+	margin: 0;
+}
+.ball {
+	position: relative;
+}
+.ball h1 {
+	font-size: 4em;
+	background: #b8e4f9;
+	width: 15vmin;
+	height: 15vmin;
+	-webkit-border-radius: 100px;
+	border-radius: 100%;
+}
+.ball .ball {
+	position: absolute;
+	top: 0;
+}
+.ball .ball h1 {
+	width: 7.5vmin;
+	height: 7.5vmin;
+	margin: 3.75vmin;
+	position: absolute;
+}
+.ball .ball .ball h1 {
+	width: 5vmin;
+	height: 5vmin;
+	margin: 5vmin;
+}
+.ball:nth-of-type(-n + 5) {
+	order: 0;
+}
+.ball:nth-of-type(n + 7),
+.ball:nth-of-type(2) {
+	order: 1;
+}
+.ball:nth-of-type(n + 12),
+.ball:nth-of-type(9) {
+	order: 2;
+}
+.ball:nth-of-type(12) {
+	grid-column: 2 / 3; 
+  	grid-row: 4 / 5;
+}
+.ball:nth-of-type(17) {
+	grid-column: 2 / 3; 
+  	grid-row: 5 / 6;
+}
+
+.blue > h1 {
+	background: #b8e4f9;
+}
+.green > h1,
+.green > h2 {
+	background: #bde1da;
+}
+.red > h1 {
+	background: #bf364a;
+}
+.yellow > h1 {
+	background: #fefcdd;
+}
+.white > h1 {
+	background: #fdfdfd;
+}
+
+
+/* @group articles {{{
+================================================================= */
+
+	article {
+		width: 15vmin;
+		float: left;
+		position: relative;
+		margin: 0 1.5vmin 1.5vmin 0;
+	}
+
+
+
