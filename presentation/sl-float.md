@@ -15,7 +15,7 @@ Note: one col is easy, and can be enough
 
 
 <!-- .slide: data-background="gfx/blog-three-fixed.png" data-background-size="contain" -->
-Note: If you disagree, it's easy to fix by using display inline block instead. We all know that. But there's another problem. Most Swiss people will not see it, but all italians see it directly. 
+Note: If you disagree, it's easy to fix by using display inline block instead. We all know that. But there's another problem. Most Swiss people will not see it, but all italians see it directly.
 
 
 <!-- .slide: data-background="gfx/blog-two-col.png" data-background-size="contain" -->
@@ -35,11 +35,11 @@ Note: I mean, look at that! That looks actually pretty good, if you ask me.
 
 
 <!-- .slide: data-background="gfx/blog-three-fixed.png" data-background-size="contain" -->
-Note: If you disagree, it's easy to fix by using display inline block instead. We all know that. But there's another problem. Most Swiss people will not see it, but all italians see it directly. 
+Note: If you disagree, it's easy to fix by using display inline block instead. We all know that. But there's another problem. Most Swiss people will not see it, but all italians see it directly.
 
 
 <!-- .slide: data-background="gfx/border.png" data-background-size="contain" -->
-Note: The web was invented in Switzerland — well, technically in France, but for the sake of this argument we'll say it was invented in Switzerland. But it was definitely not invented for the Swiss. It was invented for everyone. 
+Note: The web was invented in Switzerland — well, technically in France, but for the sake of this argument we'll say it was invented in Switzerland. But it was definitely not invented for the Swiss. It was invented for everyone.
 
 
 <!-- .slide: data-background="gfx/blog-italian.png" data-background-size="contain" -->
@@ -49,4 +49,6 @@ Note: it looks boring!
 
 <!-- .slide: data-background="white" -->
 
-<iframe data-src="../examples/studies/overflow/"></iframe>
+## film of responsive layout of previous slide
+
+Note: this can only be done with mq, right? Well, nope. It turns out you can use this easy to understand code instead. Does this mean we were able to create real responsive websites before 2009? Before Firefox 3.5 came out? Well, no. Support for calc() has always been worse that MQ. It could have been used in Old IE with expessions. And I am really sorry for the poor soul who's forced to implement this for IE7 because their boss is here. This means this is only useful in HTML for email, since only inline CSS works there. Which is, to be honest, another reason why I am really happy that I don't have to write code for email. But Vasilis said it's possible in IE7!

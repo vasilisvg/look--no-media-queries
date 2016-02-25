@@ -1,6 +1,6 @@
 <!-- .slide: data-background="gfx/home.jpg" -->
 # Look, no media queries! <!-- .element: style="color: white; text-shadow: 1px 1px 0 black;" -->
-Vasilis van Gemert — Frontend Conference Zürich <!-- .element: style="color: white; text-shadow: 1px 1px 0 black;" -->
+Vasilis van Gemert — Smashing Conf Oxford 2016 <!-- .element: style="color: white; text-shadow: 1px 1px 0 black;" -->
 
 
 
