@@ -2,22 +2,86 @@
 # CSS Columns <!-- .element: style="margin-top: 2.4em; color: hsl(177,68%,16%);" -->
 
 
-<!-- .slide: data-background="gfx/col-nope-1.png" data-background-size="contain" -->
+<!-- .slide: data-background="gfx/col-books-5.png" data-background-size="auto auto" -->
 
 
-<!-- .slide: data-background="gfx/col-nope-2.png" data-background-size="contain" -->
+<!-- .slide: data-background="gfx/col-books-4.png" data-background-size="auto auto" -->
 
 
-<pre><code class="lang-nope hljs css">@media (min-width: 48em) {
+<!-- .slide: data-background="gfx/col-books-3.png" data-background-size="100% auto" -->
+
+
+<pre><code class="lang-nope hljs css">@media (min-width: 30em) {
 	ul {
 	    columns: 2;
 	}
 }
-@media (min-width: 61.3125em) {
+@media (min-width: 45em) {
 	ul {
 	    columns: 3;
 	}
 }
+</code></pre>
+
+
+<!-- .slide: data-background="gfx/col-books-2.png" data-background-size="100% auto" -->
+
+
+<!-- .slide: data-background="gfx/col-books-1.png" data-background-size="100% auto" -->
+
+
+<pre><code class="lang-nope hljs css">@media (min-width: 40em) {
+	ul {
+	    columns: 2;
+	}
+}
+@media (min-width: 60em) {
+	ul {
+	    columns: 3;
+	}
+}
+</code></pre>
+
+
+<pre><code class="lang-nope hljs css">@media (min-width: 40em) {
+	ul {
+	    columns: 2;
+	}
+}
+@media (min-width: 60em) {
+	ul {
+	    columns: 3;
+	}
+}
+@media (min-width: 80em) {
+	ul {
+	    columns: 4;
+	}
+}
+</code></pre>
+
+
+<pre><code class="lang-nope hljs css">@media (min-width: 40em) {
+	ul {
+	    columns: 2;
+	}
+}
+@media (min-width: 60em) {
+	ul {
+	    columns: 3;
+	}
+}
+@media (min-width: 80em) {
+	ul {
+	    columns: 4;
+	}
+}
+@media (min-width: 100em) {
+	ul {
+	    columns: 5;
+	}
+}
+…
 </code></pre>
 
 <pre class="fragment"><code class="lang-yep hljs css">ul {
@@ -91,21 +155,6 @@ Note: Show them a few examples: voto, shop, rectangles, navigation. Next, tell a
 <!-- .slide: data-background="gfx/col-voto-new-1.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/col-books-5.png" data-background-size="auto auto" -->
-
-
-<!-- .slide: data-background="gfx/col-books-4.png" data-background-size="auto auto" -->
-
-
-<!-- .slide: data-background="gfx/col-books-3.png" data-background-size="100% auto" -->
-
-
-<!-- .slide: data-background="gfx/col-books-2.png" data-background-size="100% auto" -->
-
-
-<!-- .slide: data-background="gfx/col-books-1.png" data-background-size="100% auto" -->
-
-
 <!-- .slide: data-background="gfx/maar-4.jpg" data-background-size="contain" -->
 # ”But Vasilis!” <!-- .element: style="margin-top: 6em;" -->
 
@@ -130,28 +179,28 @@ article {
 <!-- .slide: data-background="gfx/col-long-text-5.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background-color="white" data-background-image="gfx/columns-1.svg" data-background-size="auto 400px" -->
+<!-- .slide: data-background-color="white" data-background-image="gfx/columns-1.svg" data-background-size="auto 350px" -->
 
 
-<!-- .slide: data-background-color="white" data-background-image="gfx/columns-2.svg" data-background-size="auto 400px" -->
+<!-- .slide: data-background-color="white" data-background-image="gfx/columns-2.svg" data-background-size="auto 350px" -->
 
 
-<!-- .slide: data-background-color="white" data-background-image="gfx/columns-3.svg" data-background-size="auto 400px" -->
+<!-- .slide: data-background-color="white" data-background-image="gfx/columns-3.svg" data-background-size="auto 350px" -->
 
 
-<!-- .slide: data-background-color="white" data-background-image="gfx/columns-4.svg" data-background-size="auto 400px" -->
+<!-- .slide: data-background-color="white" data-background-image="gfx/columns-4.svg" data-background-size="auto 350px" -->
 
 
-<!-- .slide: data-background-color="white" data-background-image="gfx/columns-5.svg" data-background-size="auto 400px" -->
+<!-- .slide: data-background-color="white" data-background-image="gfx/columns-5.svg" data-background-size="auto 350px" -->
 
 
-<!-- .slide: data-background-color="white" data-background-image="gfx/columns-6.svg" data-background-size="auto 400px" -->
+<!-- .slide: data-background-color="white" data-background-image="gfx/columns-6.svg" data-background-size="auto 350px" -->
 
 
-<!-- .slide: data-background-color="white" data-background-image="gfx/columns-7.svg" data-background-size="auto 400px" -->
+<!-- .slide: data-background-color="white" data-background-image="gfx/columns-7.svg" data-background-size="auto 350px" -->
 
 
 <!-- .slide: data-background-color="white" data-background-image="gfx/css-is-awesome.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background-image="gfx/col-blendle.png" -->
+<!-- .slide: data-background-image="gfx/col-blendle.png" data-background-size="contain" -->
