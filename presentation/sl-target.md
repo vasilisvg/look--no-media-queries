@@ -6,7 +6,7 @@
 Note: I needed more layouts. It's nice to scroll through things, but not always. Sometimes you want to see things next to each other. In columns, for instance
 
 
-<!-- .slide: data-background="gfx/target-columns.png" -->
+<!-- .slide: data-background="gfx/target-columns.png" data-background-size="contain" -->
 
 
 ![Target URL](gfx/target-url.png)
@@ -40,7 +40,7 @@ html:target body {
 Note: Very, very nice indeed. But still it takes quite a long time to view all images, right?
 
 
-<!-- .slide: data-background="gfx/target-all.png" -->
+<!-- .slide: data-background="gfx/target-all.png" data-background-size="contain" -->
 
 
 <!-- .slide: data-background="gfx/target-url-m.png" data-background-size="auto" -->
@@ -66,10 +66,10 @@ body:target {
 ```
 
 
-<!-- .slide: data-background="gfx/target-all.png" -->
+<!-- .slide: data-background="gfx/target-all.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/target-description-1.png" -->
+<!-- .slide: data-background="gfx/target-description-1.png" data-background-size="contain" -->
 
 
 <!-- .slide: data-background="gfx/target-description.png" data-background-size="542px auto" -->
@@ -120,4 +120,4 @@ head:target + body svg{
 ```
 
 
-<!-- .slide: data-background="gfx/target-text-only.png" -->
+<!-- .slide: data-background="gfx/target-text-only.png" data-background-size="contain" -->

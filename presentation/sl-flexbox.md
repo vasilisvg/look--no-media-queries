@@ -2,7 +2,7 @@
 # flexbox <!-- .element: style="color: hsl(194,57%,48%)" -->
 
 
-<!-- .slide: data-background="gfx/vasilis-1.png" -->
+<!-- .slide: data-background="gfx/vasilis-1.png" data-background-size="contain" -->
 
 
 ```css
@@ -17,16 +17,16 @@ li {
 ```
 
 
-<!-- .slide: data-background="gfx/vasilis-2.png" -->
+<!-- .slide: data-background="gfx/vasilis-2.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/vasilis-3.png" -->
+<!-- .slide: data-background="gfx/vasilis-3.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/vasilis-4.png" -->
+<!-- .slide: data-background="gfx/vasilis-4.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/vasilis-5.png" -->
+<!-- .slide: data-background="gfx/vasilis-5.png" data-background-size="contain" -->
 
 
 ```css
@@ -48,7 +48,7 @@ li {
 <!-- .slide: data-background="gfx/vasilis-15.png" data-background-size="auto auto" -->
 
 
-## We can now emulate the way<br> images resize with pure CSS!
+## This is text pretending<br> to be an image!
 
 <small class="fragment">(But we can do better than that)</small>
 
@@ -69,7 +69,7 @@ li {
 <small>Thanks to @smashingmag and @crocodillon</small>
 
 
-<!-- .slide: data-background="gfx/calc-1.png" data-background-size="auto auto" -->
+<!-- .slide: data-background="gfx/calc-1.png" data-background-size="contain" -->
 
 
 <!-- .slide: data-background="gfx/calc-3.png" data-background-size="auto auto" -->
