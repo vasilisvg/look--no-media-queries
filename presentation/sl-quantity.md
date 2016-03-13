@@ -2,7 +2,7 @@
 # Quantity selectors <!-- .element: style="color: hsl(278,48%,56%)"  -->
 
 
-<!-- .slide: data-background="gfx/hues.png" -->
+<!-- .slide: data-background="gfx/hues.png" data-background-size="contain" -->
 
 
 ```css
@@ -27,31 +27,31 @@ article {
 <!-- .slide: data-background-video="gfx/flex-squares-ani-16.webm" -->
 
 
-<!-- .slide: data-background="gfx/flex-squares-17.png" -->
+<!-- .slide: data-background="gfx/flex-squares-17.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-1.png" -->
+<!-- .slide: data-background="gfx/flex-q-1.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-2.png" -->
+<!-- .slide: data-background="gfx/flex-q-2.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-3.png" -->
+<!-- .slide: data-background="gfx/flex-q-3.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-4.png" -->
+<!-- .slide: data-background="gfx/flex-q-4.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-5.png" -->
+<!-- .slide: data-background="gfx/flex-q-5.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-6.png" -->
+<!-- .slide: data-background="gfx/flex-q-6.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-7.png" -->
+<!-- .slide: data-background="gfx/flex-q-7.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background="gfx/flex-q-8.png" -->
+<!-- .slide: data-background="gfx/flex-q-8.png" data-background-size="contain" -->
 
 
 <!-- .slide: data-background-video="gfx/flex-q-8-on.webm" -->
@@ -59,7 +59,7 @@ article {
 
 ```css
 article:nth-last-of-type(n + 4),
-article:nth-last-of-type(n + 4) ~ article {
+article:nth-last-of-type(4) ~ article {
 	flex: 1 1 50vmax;
 }
 ```
@@ -68,15 +68,15 @@ article:nth-last-of-type(n + 4) ~ article {
 
 ```css
 article:nth-last-of-type(n + 4),
-article:nth-last-of-type(n + 4) ~ article {
+article:nth-last-of-type(4) ~ article {
 	flex: 1 1 50vmax;
 }
 article:nth-last-of-type(n + 8),
-article:nth-last-of-type(n + 8) ~ article {
+article:nth-last-of-type(8) ~ article {
 	flex: 1 1 25vmax;
 }
 article:nth-last-of-type(n + 20),
-article:nth-last-of-type(n + 20) ~ article {
+article:nth-last-of-type(20) ~ article {
 	flex: 1 1 20vmax;
 }
 etc.
@@ -91,34 +91,46 @@ etc.
 # ”But Vasilis!” <!-- .element: style="margin-top: -3.5em;" -->
 
 
-<!-- .slide: data-background="gfx/ls-1.png" -->
+<!-- .slide: data-background="gfx/sm-12.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-2.png" -->
+<!-- .slide: data-background="gfx/sm-11.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-3.png" -->
+<!-- .slide: data-background="gfx/sm-11a.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-4.png" -->
+<!-- .slide: data-background="gfx/sm-10.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-11.png" -->
+<!-- .slide: data-background="gfx/sm-9.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-5.png" -->
+<!-- .slide: data-background="gfx/sm-8.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-6.png" -->
+<!-- .slide: data-background="gfx/sm-7.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-7.png" -->
+<!-- .slide: data-background="gfx/sm-6.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-8.png" -->
+<!-- .slide: data-background="gfx/sm-5.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-9.png" -->
+<!-- .slide: data-background="gfx/sm-4.jpg" -->
 
 
-<!-- .slide: data-background="gfx/ls-10.png" -->
+<!-- .slide: data-background="gfx/sm-13.png" -->
+
+
+<!-- .slide: data-background="gfx/sm-14.png" -->
+
+
+<!-- .slide: data-background="gfx/sm-1.jpg" -->
+
+
+<!-- .slide: data-background="gfx/sm-3.jpg" -->
+
+
+<!-- .slide: data-background="gfx/sm-2.jpg" -->
