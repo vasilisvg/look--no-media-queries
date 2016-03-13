@@ -11,7 +11,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 body {
   background: #222;
-  background-color: hsl(0,0%,13%); }
+  background-color: hsl(0,0%,0%); }
 
 .reveal {
   font-family: "Fedra Sans Screen 6", helvetica, arial, sans-serif;
@@ -50,13 +50,13 @@ body {
 .reveal h1 {
   font-size: 2.5em;
   color: hsl(205,53%,48%);
-  text-shadow: 0.2vw 0 0px hsl(0, 0%, 100%), 
-              -0.2vw 0 0px hsl(0, 0%, 100%), 
-               0.2vw 0.2vw 0px hsl(0, 0%, 100%), 
+  text-shadow: 0.2vw 0 0px hsl(0, 0%, 100%),
+              -0.2vw 0 0px hsl(0, 0%, 100%),
+               0.2vw 0.2vw 0px hsl(0, 0%, 100%),
               -0.2vw 0.2vw 0px hsl(0, 0%, 100%),
-               0 0.2vw 0px hsl(0, 0%, 100%), 
-               0 -0.2vw 0px hsl(0, 0%, 100%), 
-               0.2vw -0.2vw 0px hsl(0, 0%, 100%), 
+               0 0.2vw 0px hsl(0, 0%, 100%),
+               0 -0.2vw 0px hsl(0, 0%, 100%),
+               0.2vw -0.2vw 0px hsl(0, 0%, 100%),
               -0.2vw -0.2vw 0px hsl(0, 0%, 100%); }
 
 .reveal h2 {
@@ -170,7 +170,7 @@ body {
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
+  max-height: 500px;
   word-wrap: normal;
   background: #3F3F3F;
   color: #DCDCDC; }
