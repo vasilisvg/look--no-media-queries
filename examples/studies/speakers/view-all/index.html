@@ -67,7 +67,7 @@ button {
 }
 
 article {
-	
+
 	position: relative;
 }
 article {
@@ -108,37 +108,34 @@ img {
 	max-width: 100%;
 	object-fit: contain;
 	position: absolute;
+	top: 50%;
 	left: 50%;
-	margin: 0 0 0 -40%;
+	transform: translate(-50%, -50%);
 }
 </style>
 </head>
 <body>
 <section id="visible">
-<article class="everybody hosts male"><img src="../speakers/dan-rubin.jpg" alt="Dan Rubin – Photo: Chris Davis/specularworld.com"></article>
-<article class="everybody hosts male"><img src="../speakers/stephen-hay.jpg" alt="Stephen Hay"></article>
-<article class="everybody speakers male thursday too-late"><img src="../speakers/chaals-mccathie-nevile.jpg" alt="Charles McCathie Nevile"></article>
-<article class="everybody speakers male thursday too-late"><img src="../speakers/David-Condrau.jpg" alt="David Condrau"></article>
-<article class="everybody speakers male friday to-speak"><img src="../speakers/Edward-O-Riordan.jpg" alt="Edward O’Riordan"></article>
-<article class="everybody speakers male thursday too-late eri"><img src="../speakers/Eric-M-Suzanne.jpg" alt="Eric M. Suzanne"></article>
-<article class="everybody speakers male thursday too-late eri"><img src="../speakers/eric_m.jpg" alt="Eric Muntz"></article>
-<article class="everybody speakers male thursday to-speak eri"><img src="../speakers/Erik-Runyon.jpg" alt="Erik Runyon"></article>
-<article class="everybody speakers male friday to-speak"><img src="../speakers/Felix-Palmer.jpg" alt="Felix Palmer"></article>
-<article class="everybody speakers male thursday too-late"><img src="../speakers/flurin-adrian-egger.jpg" alt="Flurin &amp; Adrian Egger"></article>
-<article class="everybody speakers male thursday to-speak"><img src="../speakers/hugo-giraudel.jpg" alt="Hugo Giraudel"></article>
-<article class="everybody speakers male friday to-speak"><img src="../speakers/Jonathan-Snook.jpg" alt="Jonathan Snook"></article>
-<article class="everybody speakers male thursday to-speak"><img src="../speakers/kevin-m-hoffman.jpg" alt="Kevin M. Hoffman"></article>
-<article class="everybody speakers female thursday too-late"><img src="../speakers/laura-kalbag.jpg" alt="Laura Kalbag"></article>
-<article class="everybody speakers female friday to-speak"><img src="../speakers/leonie-watson.jpg" alt="Léonie Watson"></article>
-<article class="everybody speakers male friday to-speak"><img src="../speakers/Martin-Gontovnikas.jpg" alt="Martin Gontovnikas"></article>
-<article class="everybody speakers male thursday right-now"><img src="../speakers/Nick-Niles.jpg" alt="Nick Niles"></article>
-<article class="everybody speakers female friday to-speak"><img src="../speakers/patty-toland1.jpg" alt="Patty Toland"></article>
-<article class="everybody speakers male friday to-speak"><img src="../speakers/Paul-Verbeek.jpg" alt="Paul Verbeek"></article>
-<article class="everybody speakers male female friday to-speak"><img src="../speakers/Thomas-Jaggi-Olga-Skurativska.jpg" alt="Thomas Jaggi &amp; Olga Skurativska"></article>
-<article class="everybody speakers male thursday to-speak"><img src="../speakers/tim-holman.jpg" alt="Tim Holman"></article>
-<article class="everybody speakers male friday to-speak"><img src="../speakers/umar-hansa.jpg" alt="Umar Hansa"></article>
-<article class="everybody speakers male thursday right-now"><img src="../speakers/Vasilis-van-Gemert.jpg" alt="Vasilis van Gemert"></article>
-<article class="everybody speakers male friday to-speak"><img src="../speakers/vitaly-friedman.jpg" alt="Vitaly Friedman"></article>
+<article class="everybody speakers male tuesday too-late 3a 1a food"><img src="smashing/aawa-hov.png"  alt=""></article>
+<article class="everybody speakers female tuesday too-late 3a 1a food"><img src="smashing/alkh-hov.png"  alt=""></article>
+<article class="everybody speakers male tuesday too-late noa"><img src="smashing/chsh-hov.png"  alt=""></article>
+<article class="everybody speakers male wednesday to-speak eri noa"><img src="smashing/chwr-hov.png"  alt=""></article>
+<article class="everybody speakers female wednesday to-speak 3a 1a"><img src="smashing/hado-hov.png"  alt=""></article>
+<article class="everybody speakers male tuesday to-speak noa"><img src="smashing/hepi-hov.png"  alt=""></article>
+<!-- <article class="everybody speakers male wednesday to-speak"><img src="smashing/jama-hov.png"  alt=""></article> -->
+<article class="everybody speakers female wednesday to-speak 1a"><img src="smashing/jibo-hov.png"  alt=""></article>
+<article class="everybody speakers male wednesday to-speak noa"><img src="smashing/jose-hov.png"  alt=""></article>
+<!-- <article class="everybody speakers male wednesday to-speak"><img src="smashing/lere-hov.png"  alt=""></article> -->
+<article class="everybody speakers male female wednesday to-speak 1a 3a noa"><img src="smashing/msh.png"  alt=""></article>
+<article class="everybody speakers male tuesday too-late 3a 1a"><img src="smashing/paha-hov.png"  alt=""></article>
+<article class="everybody speakers female tuesday too-late 1a not"><img src="smashing/rana-hov.png"  alt=""></article>
+<!-- <article class="everybody speakers male wednesday to-speak"><img src="smashing/roma-hov.png"  alt=""></article> -->
+<article class="everybody speakers female tuesday too-late 3a 1a"><img src="smashing/saso-hov.png"  alt=""></article>
+<article class="everybody speakers male wednesday to-speak 1a"><img src="smashing/tofrjo-hov.png"  alt=""></article>
+<article class="everybody speakers male wednesday to-speak 1a"><img src="smashing/umha-hov.png"  alt=""></article>
+<article class="everybody speakers male tuesday right-now 1a food"><img src="smashing/vavage-hov.png"  alt=""></article>
+<article class="everybody speakers male tuesday too-late 1a"><img src="smashing/vifr-hov.png"  alt=""></article>
+<article class="everybody speakers male wednesday to-speak noa"><img src="smashing/wesbos-hov.png"  alt=""></article>
 </section>
 <section id="hidden">
 
@@ -152,13 +149,18 @@ img {
 	<button data-who="speakers">speakers</button>
 	<button data-who="hosts">hosts</button>
 	<button data-who="female">female</button>
-	<button data-who="eri">eri</button>
 	<button data-who="male">male</button>
-	<button data-who="thursday">thursday</button>
-	<button data-who="friday">friday</button>
+	<button data-who="1a">1 a</button>
+	<button data-who="3a">3 a</button>
+	<button data-who="noa">no a</button>
+	<button data-who="food">food</button>
+	<button data-who="not">not</button>
+	<button data-who="tuesday">tuesday</button>
+	<button data-who="wednesday">wednesday</button>
 	<button data-who="too-late">too late</button>
 	<button data-who="right-now">right now</button>
 	<button data-who="to-speak">to see</button>
+	<button data-who="double">double</button>
 </nav>
 
 <script>
@@ -174,17 +176,23 @@ while(i<btn.length) {
 		document.getElementById('visible').innerHTML = ''; // remove everybody
 		document.querySelector('.this').classList.remove('this');
 		this.classList.add('this');
-		var arts = document.querySelectorAll('article'); // get all articles
-		var j = 0;
-		while(j<arts.length) {
-			if (arts[j].classList.contains(who)) { // if it has the className we're looking for…
-				document.getElementById('visible').innerHTML += '<article>' + arts[j].innerHTML + '</article>'; // … show it in the visible section
+		if (who == 'double') {
+			document.getElementById('visible').innerHTML = document.getElementById('hidden').innerHTML + document.getElementById('hidden').innerHTML;
+		}
+		else {
+			var arts = document.querySelectorAll('article'); // get all articles
+			var j = 0;
+			while(j<arts.length) {
+				if (arts[j].classList.contains(who)) { // if it has the className we're looking for…
+					document.getElementById('visible').innerHTML += '<article>' + arts[j].innerHTML + '</article>'; // … show it in the visible section
+				}
+				j++;
 			}
-			j++;
 		}
 	}
 	i++;
 }
+window.resizeTo(1024,768);
 </script>
 
 <style>
@@ -235,7 +243,6 @@ article {
 	article:nth-of-type(29n) { z-index:2;background: hsla(111,61%,74%,1); box-shadow: 0 0 0 .9em hsla(111,61%,74%,1); animation: nth11 30s linear infinite alternate;}
 	article:nth-of-type(29n):hover,
 	article:nth-of-type(29n):focus { background: hsla(111,61%,24%,.3); box-shadow: 0 0 0 .9em hsla(111,61%,24%,.3); }
-
 
 </style>
 </body>
