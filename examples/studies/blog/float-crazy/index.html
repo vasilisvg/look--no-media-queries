@@ -17,11 +17,12 @@ body > h1 {
 article {
 	display: inline-block;
 	max-width: 100%;
-	width: calc((600px - 100%) * 600);
+	width: calc(550px * 550 - 100% * 550);
 	min-width: calc(50%);
 	vertical-align: middle;
 	margin: 0;
-	padding: 0;
+	padding: 1em;
+	box-sizing: border-box;
 	//margin-left: 5.5555vw;
 }
 article:nth-of-type(1n+5) {
