@@ -47,8 +47,22 @@ Note: The web was invented in Switzerland — well, technically in France, but 
 Note: it looks boring!
 
 
-<!-- .slide: data-background="white" -->
+<!-- .slide: data-background-video="gfx/no-mq-float.webmhd.webm" data-background-video-loop="loop" -->
+Note: this can only be done with mq, right? Well, nope. It turns out you can use this easy to understand code instead. Does this mean we were able to create real responsive websites before 2009? Before Firefox 3.5 came out? Well, no. Support for calc() has always been worse that MQ. It could have been used in Old IE with expessions. And I am really sorry for the poor soul who's forced to implement this for IE7 because their boss is here. This means this is only useful in HTML for email, since only inline CSS works there. Which is, to be honest, another reason why I am really happy that I don't have to write code for email. But Vasilis said it's possible in IE7! This is of course fantastic if want your work to be primarily viewed by spam detection algorythms
 
-## film of responsive layout of previous slide
 
-Note: this can only be done with mq, right? Well, nope. It turns out you can use this easy to understand code instead. Does this mean we were able to create real responsive websites before 2009? Before Firefox 3.5 came out? Well, no. Support for calc() has always been worse that MQ. It could have been used in Old IE with expessions. And I am really sorry for the poor soul who's forced to implement this for IE7 because their boss is here. This means this is only useful in HTML for email, since only inline CSS works there. Which is, to be honest, another reason why I am really happy that I don't have to write code for email. But Vasilis said it's possible in IE7!
+<pre><code class="hljs css">article {
+	max-width: 100%;
+	min-width: 50%;
+	width: …;
+}
+</code></pre>
+
+
+<pre><code class="hljs css">article {
+	max-width: 100%;
+	min-width: 50%;
+	width: calc(550px * 550 - 100% * 550);
+}
+</code></pre>
+Note: And it's completely useless on the web. This is stuff no human should ever have to write. Unless you make calculations for nuclear warheads. Or unless you write HTML for email newsletters. Which affirms that no human should ever have to write this kind of code.
